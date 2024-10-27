@@ -1,0 +1,1 @@
+ ALTER TABLE MUSICA.Usuarios ADD FOREIGN KEY (ID_Genero) REFERENCES Genero(ID_Genero);

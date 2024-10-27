@@ -1,0 +1,10 @@
+CREATE TABLE MUSICA.Usuarios(ID_Usuarios INT AUTO_INCREMENT NOT NULL,
+Nombre varchar(55) NOT NULL,
+ApellidoP varchar(55) NOT NULL,
+ApellidoM varchar(55) NOT NULL,
+Fechnac DATE NOT NULL,
+ID_Genero INT NOT NULL,
+Telefono varchar(10) NOT NULL,
+Email varchar(255) NOT NULL,
+Nombre_de_usuario varchar(15) NOT NULL,
+Password varchar(255) NOT NULL,PRIMARY KEY(ID_Usuarios))ENGINE=InnoDB;
